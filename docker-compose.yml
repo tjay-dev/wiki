@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  wiki:
+    build: .
+    image: tomajask/wiki
+    volumes:
+      - .:/docs
+    ports:
+      - 8000:8000

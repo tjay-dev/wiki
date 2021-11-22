@@ -1,0 +1,61 @@
+site_name: TJay Dev - Wiki
+repo_url: https://github.com/tomajask/wiki
+repo_name: tomajask/wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  favicon: images/assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/regular/folder-open
+  palette:
+    - scheme: default
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    code: Jet Brains Mono
+  features:
+    - navigation.instant
+
+plugins:
+  - git-revision-date
+  - search
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - abbr
+  - admonition            # enables coloured blocks mid article
+  - attr_list             # improves image handling
+  - pymdownx.details      # enables collapsible admonitions
+  - footnotes
+  - meta                  # adds support for front matter
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.highlight:   # code highlighting
+      linenums: true
+  - pymdownx.tabbed       # enables tabs for embedded blocks
+  - pymdownx.snippets
+  - pymdownx.superfences  # allows for the nesting of code blocks inside other blocks
+  - pymdownx.keys
+
+copyright: 2021 &copy; Thomas Jaskiewicz
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/tomajask'
+      name: Thomas Jaskiewicz on GitHub
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/tomjaskiewicz'
+      name: Thomas Jaskiewicz on Twitter
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/tomaszjaskiewicz/'
