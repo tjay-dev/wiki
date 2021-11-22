@@ -1,7 +1,7 @@
 site_name: TJay Dev - Wiki
 repo_url: https://github.com/tomajask/wiki
 repo_name: tomajask/wiki
-edit_uri: edit/main/docs/
+edit_uri: edit/master/docs/
 
 theme:
   name: material
