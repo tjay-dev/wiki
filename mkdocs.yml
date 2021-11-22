@@ -22,7 +22,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    code: Jet Brains Mono
+    text: Roboto
+    code: IBM Plex Mono
   features:
     - navigation.instant
 
