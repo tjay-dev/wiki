@@ -5,6 +5,7 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
   favicon: images/assets/favicon.png
   icon:
@@ -51,6 +52,10 @@ markdown_extensions:
 
 copyright: 2021 &copy; Thomas Jaskiewicz
 extra:
+  analytics:
+    provider: umami
+    domain: umami.tjay.tools
+    key: 06208c65-fafa-4adf-a03d-9cd1e403c7a2
   social:
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/tomajask'
