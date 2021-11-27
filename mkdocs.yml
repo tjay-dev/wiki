@@ -7,7 +7,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   language: en
-  favicon: images/assets/favicon.png
+  favicon: images/favicon.png
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/regular/folder-open
