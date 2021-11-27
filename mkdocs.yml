@@ -9,7 +9,7 @@ theme:
   language: en
   favicon: images/favicon.png
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/github-square
     logo: fontawesome/regular/folder-open
   palette:
     - scheme: default
@@ -50,7 +50,7 @@ markdown_extensions:
   - pymdownx.superfences  # allows for the nesting of code blocks inside other blocks
   - pymdownx.keys
 
-copyright: 2021 &copy; Thomas Jaskiewicz
+copyright: 2021 &copy; Thomas Jaskiewicz - GPL-3.0 License
 extra:
   analytics:
     provider: umami
@@ -65,3 +65,16 @@ extra:
       name: Thomas Jaskiewicz on Twitter
     - icon: 'fontawesome/brands/linkedin'
       link: 'https://www.linkedin.com/in/tomaszjaskiewicz/'
+      name: Thomas Jaskiewicz on LinkedIn
+    - icon: 'fontawesome/brands/dev'
+      link: 'https://dev.to/tjay_dev'
+      name: Thomas Jaskiewicz on Dev.to
+    - icon: 'fontawesome/brands/instagram'
+      link: 'https://www.instagram.com/tjay.dev'
+      name: Thomas Jaskiewicz on Instagram
+    - icon: 'fontawesome/solid/ghost'
+      link: 'https://tjay.dev'
+      name: Dev Blog by Thomas Jaskiewicz
+    - icon: 'fontawesome/solid/external-link-square-alt'
+      link: 'https://links.tjay.dev'
+      name: All links to Thomas' websites
