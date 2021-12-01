@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material:7.3.6
+FROM squidfunk/mkdocs-material:8.0.2
 
 RUN apk update && apk upgrade
 RUN /usr/local/bin/python -m pip install --upgrade pip
